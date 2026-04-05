@@ -1,0 +1,40 @@
+# =============================================
+# ADReSS / Pitt Corpus data (DementiaBank restricted)
+# DO NOT push patient data to any public repository
+# =============================================
+Data/
+
+# Model weights (too large, reproducible from notebook)
+output/weights/
+
+# Precomputed predictions (reproducible from notebook)
+output/oof/
+output/test/
+
+# HTML export (regenerate with: jupyter nbconvert --to html)
+output/html/
+
+# Submission staging
+submission/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor settings
+.editor-config/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audit artifacts (not part of submission)
+DIAGRAM_AUDIT_REPORT.md
+
+# Environment
+.env
+*.log
